@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background: #f5f6fa;
+  color: #1f2937;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.grid {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.card h2 {
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem;
+}
+.price {
+  font-weight: 600;
+  color: #0f766e;
+  margin: 0;
+}
+.stock {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin: 0.25rem 0 0;
+}
+.error {
+  color: #b91c1c;
+}
